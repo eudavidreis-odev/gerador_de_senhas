@@ -43,7 +43,63 @@ const styles = StyleSheet.create({
         color: '#fff',
         fontSize: 20,
         fontWeight: 'bold'
-    }
+    },
+    modalContainer:{
+        backgroundColor:"rgba(24,24,24,0.6)",
+        flex:1,
+        justifyContent:"center",
+        alignItems:"center"
+    },
+    modalContent:{
+        backgroundColor:"#fff",
+        width:"90%",
+        borderRadius:8,
+        padding:10,
+        justifyContent:"center",
+        alignItems:"center"
+    },
+    modalTittle:{
+        fontSize: 24,
+        fontWeight: "bold",
+        color:"#000"
+    },
+    innerPassword:{
+        backgroundColor:"#000",
+        width:"90%",
+        borderRadius:8,
+        padding:10,
+        marginTop:10,
+        justifyContent:"center",
+        alignItems:"center"
+    },
+    modalPasswordText:{
+        color:"#fff",
+        fontSize:16,
+        textAlign:"center"
+    },
+    modalButtonsArea:{
+        flexDirection:"row",
+        justifyContent:"space-between",
+        alignItems:"center",
+        width:"95%",
+        padding:24
+    },
+    modalButtonTextDark:{
+        color:"#fff",
+        fontSize:16,
+        fontWeight:"bold",
+        backgroundColor:'#392de9',
+        padding:10,
+        borderRadius:8
+    },
+    modalButtonTextLight:{
+        color:"#000",
+        fontSize:16,
+        fontWeight:"bold",
+        padding:10,
+        borderRadius:8
+    },
+    
   });
 
 
