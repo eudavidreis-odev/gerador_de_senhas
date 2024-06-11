@@ -6,6 +6,7 @@ import styles from '../../stylesheets/base_stylesheet.js'
 import functions from '../../scripts/base_functions.js'
 import {ModalPassword} from '../../components/modal/ModalSenhaGerada.js'
 
+
 export function Home() {
   
     const [size, setSize] = useState(10)

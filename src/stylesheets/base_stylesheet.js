@@ -99,6 +99,38 @@ const styles = StyleSheet.create({
         padding:10,
         borderRadius:8
     },
+    passwordsHeader:{
+        backgroundColor: "#392de9",
+        paddingTop:58,
+        paddingBottom:14,
+        paddingStart:14,
+        paddingEnd:14
+    },
+    passwordsTittle:{
+        fontSize:18,
+        color:"#fff",
+        fontWeight: 'bold'
+    },
+    passwordsContent:{
+        flex: 1,
+        paddingStart: 14,
+        paddingEnd: 14
+    },
+    containerItemPassword: {
+        flex: 1,
+        backgroundColor: '#0e0e0e',
+        padding: 14,
+        width: "100%",
+        marginBottom:14,
+        borderRadius: 8,
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between'
+    },
+    passwordTextItem:{
+        color: '#FFF'
+    }
+
     
   });
 
